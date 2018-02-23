@@ -1,0 +1,174 @@
+5476, 0.77511
+
+
+
+submission 3: 5475, 0.77511
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=4,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=3,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=7,
+            splitter='best')
+
+submission 4: 5476, 0.72248
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=7, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=2, min_samples_split=5,
+            min_weight_fraction_leaf=0.0, n_estimators=130, n_jobs=1,
+            oob_score=False, random_state=6, verbose=0, warm_start=False)
+
+submission 5: 5475, 0.70813
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=6, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=2, min_samples_split=3,
+            min_weight_fraction_leaf=0.0, n_estimators=130, n_jobs=1,
+            oob_score=False, random_state=6, verbose=0, warm_start=False)
+
+submission 6: 0.76076
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=4,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=7,
+            splitter='best')
+
+
+submission 7: 0.77033
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='entropy',
+            max_depth=6, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=4, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=130, n_jobs=1,
+            oob_score=False, random_state=6, verbose=0, warm_start=False)
+
+submission 8: 4874, 0.77990
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=4, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=7,
+            splitter='best')
+
+submission 9: 0.77033
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=6, max_features='auto', max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=2, min_samples_split=6,
+            min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=1,
+            oob_score=False, random_state=6, verbose=0, warm_start=False)
+
+
+submission 10: 0.71291
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=5,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=8, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=7,
+            splitter='best')
+
+submission 11: 0.76076
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=5,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=4, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=7, splitter='best')
+
+submission 12: 0.74641
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=5,
+            max_features=1, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=6, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=7, splitter='best')
+
+submission 13: 0.73205
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=5,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=4,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=7, splitter='best')
+
+submission 14: 0.71770
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=8, shrinking=True,
+  tol=0.001, verbose=False)
+
+submission 15: 0.72248
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=3,
+              max_features=5, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=2, min_samples_split=7,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=9, subsample=1.0, verbose=0,
+              warm_start=False)
+
+submission 16: 0.68899
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=5,
+              max_features=3, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=3, min_samples_split=8,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=9, subsample=1.0, verbose=0,
+              warm_start=False)
+
+submission 17: 0.72727
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=5,
+              max_features=3, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=2, min_samples_split=5,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=9, subsample=1.0, verbose=0,
+              warm_start=False)
+
+submission 18: 0.70813
+GradientBoostingClassifier(criterion='friedman_mse', init=None,
+              learning_rate=0.1, loss='deviance', max_depth=6,
+              max_features=1, max_leaf_nodes=None,
+              min_impurity_decrease=0.0, min_impurity_split=None,
+              min_samples_leaf=1, min_samples_split=2,
+              min_weight_fraction_leaf=0.0, n_estimators=100,
+              presort='auto', random_state=9, subsample=1.0, verbose=0,
+              warm_start=False)
+
+
+submission 19: 0.74162
+RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+            max_depth=9, max_features=1, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, n_estimators=110, n_jobs=1,
+            oob_score=False, random_state=6, verbose=0, warm_start=False)
+
+================submission 20: 0.78947
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=6,
+            max_features=1, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=7, splitter='random')
+
+submission 21: 0.72727
+SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
+  decision_function_shape='ovr', degree=3, gamma='auto', kernel='rbf',
+  max_iter=-1, probability=False, random_state=8, shrinking=True,
+  tol=0.001, verbose=False)
+
+submission 22: 0.74162
+DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=5,
+            max_features=2, max_leaf_nodes=None, min_impurity_decrease=0.0,
+            min_impurity_split=None, min_samples_leaf=1,
+            min_samples_split=2, min_weight_fraction_leaf=0.0,
+            presort=False, random_state=7, splitter='best')
+
+submission 21:
+
+submission 21:
+
+submission 21:
+
+submission 21:
+
