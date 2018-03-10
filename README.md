@@ -51,8 +51,13 @@ Below are some features that are missing for some passengers. They are filled in
   
 ## Visual
 Count of survivors by pclass
-![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/edit/master/countbypclass.img)
-![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/edit/master/countbygender.img)
-![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/edit/master/countbyage.img)
+![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/blob/master/countbypclass.png)
+![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/blob/master/countbygender.png)
+![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/blob/master/countbyage.png)
   
-  
+## Model 
+Features are preprocessed with one hot encoder or sklearn StandardScaler to make them suitable for modeling. 
+A random prediction is used as a benchmark model. The accuracy is logged at 0.6.
+I then proceed with decision tree, random forest and gradient boosting with sklearn provided ShuffleSplit cross validation. GridSeachCV is also used to fine tune hyperparameters.
+
+Prediction result were submitted to Kaggle for performance evaluation. The score is 0.78947 which is at top 23%.
