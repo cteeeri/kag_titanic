@@ -44,5 +44,15 @@ Below are some features that are missing for some passengers. They are filled in
    
    
    At first step, the most common age of the similar attributes is attempted.
+   
++ Name
+
+  Name may seems inappropriate for prediction. But a closer look revealed that they actually have a title to go with name, and the title make this name field potentially useful. After some exploration, I found that all names could be categorized into 12 groups of title. A funtion replace_title is coded to extract the title in the name and a new column 'Title' is created.
+  
+## Visual
+Count of survivors by pclass
+![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/edit/master/countbypclass.img)
+![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/edit/master/countbygender.img)
+![Count of survivors by pclass](https://github.com/cteeeri/kag_titanic/edit/master/countbyage.img)
   
   
